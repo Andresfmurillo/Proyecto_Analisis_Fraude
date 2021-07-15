@@ -1,5 +1,6 @@
 # Proyecto_Analisis_Fraude
 
+Caracteristicas: 1.730.042 Filas, 81 columnas
 
 Objetivos del proyecto
 
@@ -28,9 +29,6 @@ Pruebas para la Detección del Fraude
 
 ▪	El proceso de exploración, depuración y de examinación en general de los datos del proyecto, es el primer paso y es sumamente necesario con el fin de garantizar o lograr alta calidad de los datos que van a ser usados en el proyecto de analitica. 
 
-▪	Los test IGUAL-IGUAL-IGUAL e IGUAL-IGUAL-DIFERENTE aplicados a la detección de facturas fraudulentas en un conjunto de datos, permite encontrar casos que nos son fáciles de detectar mediante los métodos tradicionales de auditoría, como por ejemplo la selección de una muestra aleatoria al conjunto de datos, o muestreo estratificado o dada la experiencia de quien revise la información a criterio personal. Estas pruebas facilitan la selección de casos para investigar a fondo y verificar si lo que estos test detectaron corresponde a un error o son efectivamente casos de fraude de parte de las IPS.
-
-▪	Con la aplicación del método IGUAL - IGUAL - DIFERENTE se identificó que algunas IPS radican la misma factura en los dos regímenes dejándolas en estados radicado activo, lo que implica una mala práctica por parte de las IPS. Se sugiere realizar un análisis detallado sobre estos casos para identificar si se trata de fraudes reales. Estos casos verificados corresponden al período de prestación de servicios del año 2020 en el cual se pudieron identificar mediante el método IGUAL-IGUAL-IGUAL 680 facturas por un valor total de $1.693.940.668,00  pesos M/CTE, El test IGUAL-IGUAL-DIFERENTE identificó 710 facturas por un valor de $2.677.555.382,00 pesos M/CTE y cabe resaltar de este test que en la teoría del profesor Nigrini se hace más eficiente entre mayor es el periodo de evaluación, si se expande el periodo de análisis a un año, queda la inquietud de cuántos casos se pueden encontrar, y hacer un análisis de comportamiento de las regiones año a año, y sobre todo cuantificar cuántos de estos casos fueron identificados en el proceso de auditoría tradicional. 
 
 ▪	Los rangos intercuartílicos permitieron identificar límites inferiores y superiores para cada servicio y de esta forma identificar los valores que estén fuera de este rango que se catalogaron como valores atípicos. Se identificaron 312.966 registros que junto con los test IGUAL-IGUAL-IGUAL e IGUAL-IGUAL-DIFERENTE fueron el punto de partida para la aplicación de modelos de clasificación supervisados.
 
